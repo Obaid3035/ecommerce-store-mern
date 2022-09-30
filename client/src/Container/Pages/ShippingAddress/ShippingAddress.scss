@@ -1,0 +1,56 @@
+.address_form_container {
+    background-color: rgb(246, 250, 252);
+    padding: 20px 30px;
+    h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
+.steps_container {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .back_icon{
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    span{
+        font-weight: 600;
+        position: relative;
+        top: 20px;
+        cursor: pointer;
+    }
+    .btns_container {
+        display: flex;
+        gap: 10px;
+        .continue_shopping {
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 5px 15px;
+            font-size: 14px;
+            border: 1px solid rgb(226, 224, 224);
+            background-color: #fff;
+            color: #000;
+            font-family: Montserrat, serif;
+        }
+    }
+
+    .next_step{
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 5px 15px;
+        font-size: 14px;
+        border: none;
+        background-color: #003f67;
+        color: white;
+        font-family: Montserrat, serif;
+    }
+}

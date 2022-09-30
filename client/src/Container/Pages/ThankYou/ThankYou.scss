@@ -1,0 +1,25 @@
+.thankyou_container{
+    margin: 0 auto;
+    margin-top: 10%;
+    height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #003f67;
+    max-width: 500px;
+
+    .check_icon{
+        color: green;
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    span{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    p{
+        color: grey;
+        font-weight: bold;
+        font-family: Montserrat;
+        font-size: 20px;
+    }
+  
+}

@@ -1,0 +1,32 @@
+.faq_container {
+  padding: 10px 20px;
+
+  .accordion-button.collapsed {
+    font-weight: 600;
+    opacity: 0.9;
+    font-size: 16px;
+    color: #003f67;
+  }
+
+  .accordion-body {
+    padding: 1rem 1.25rem;
+    font-weight: 500;
+  }
+
+  .accordion-button:not(.collapsed){
+    font-weight: 600;
+    opacity: 0.9;
+    font-size: 15px;
+    color: #003f67;
+  }
+}
+
+.faq_head{
+  margin-top: 40px;
+}
+
+.accordion-button:focus{
+  border-color: none !important;
+  outline: none;
+  box-shadow: none;
+}

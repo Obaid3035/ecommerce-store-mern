@@ -1,0 +1,30 @@
+.page_responsive{
+    .dropdown_container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .graph_container{
+        margin-top: 40px;
+        border: 2px solid rgb(207, 207, 207);
+        width: 100%;
+        height: 400px;
+      
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .time_period_container{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+        span{
+            font-size: 14px;
+            font-weight: 600;
+            color: grey;
+        }
+    }
+}
+

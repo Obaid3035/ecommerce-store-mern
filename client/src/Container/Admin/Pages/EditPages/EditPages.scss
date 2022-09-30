@@ -1,0 +1,17 @@
+.page_responsive{
+  label{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  span {
+    font-size: 12px;
+  }
+  .edit_page_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+  }
+}

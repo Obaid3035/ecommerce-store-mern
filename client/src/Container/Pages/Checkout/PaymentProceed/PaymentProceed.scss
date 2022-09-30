@@ -1,0 +1,75 @@
+.Address_delivery_container{
+    border: 1px solid rgb(214, 209, 209);
+    margin-top: 20px;
+    padding: 10px 20px;
+    // modified
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+    .shopping {
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 10px 15px;
+        font-size: 10px;
+        border: 1px solid rgb(226, 224, 224);
+        background-color: #fff;
+        color: #000;
+        font-family: Montserrat, serif;
+    }
+
+    .total_cost{
+        background-color: #efeded;
+        padding: 10px 20px;
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        span{
+            font-weight: 500;
+        }
+        .cross{
+            cursor: pointer
+        }
+    }
+
+    .gift_coupons_container {
+        background-color: rgb(246, 250, 252);
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    label {
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
+
+.btns_container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+
+    .shopping {
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 10px 15px;
+        font-size: 10px;
+        border: 1px solid rgb(226, 224, 224);
+        background-color: #fff;
+        color: #000;
+        font-family: Montserrat, serif;
+    }
+
+}
+.proceed_step{
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    font-size: 10px;
+    border: none;
+    background-color: #003f67;
+    color: white;
+    font-family: Montserrat, serif;
+}

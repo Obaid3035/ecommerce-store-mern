@@ -1,0 +1,17 @@
+.total_price {
+    display: flex;
+    justify-content: flex-end;
+    .inner_container {
+        border: 1px solid rgb(204, 200, 200);
+        display: flex;
+        padding: 10px 10px;
+        height: 46px;
+    }
+}
+
+.info_container{
+  font-weight: bold;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+

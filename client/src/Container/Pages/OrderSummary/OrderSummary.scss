@@ -1,0 +1,137 @@
+.summary_container {
+    margin-top: 30px;
+
+    .cross_icon{
+        cursor: pointer;
+    }
+
+    h6 {
+        color: grey;
+    }
+
+    span {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .product_head {
+        justify-content: center;
+    }
+
+    .summer_vibes_container {
+        display: flex;
+        cursor: pointer;
+        justify-content: start;
+        align-items: center;
+        gap: 15px;
+
+        b {
+            font-size: 13px;
+        }
+
+        p {
+            font-size: 12px;
+            color: grey;
+        }
+    }
+
+    .img_container {
+        background-color: rgb(235, 235, 243);
+        border-radius: 50% !important;
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 70px;
+            height: 70px;
+            border-radius: 100px;
+            object-fit: contain;
+        }
+    }
+
+    .plus_minus_container {
+        padding: 0px 20px;
+        border: 1px solid rgb(206, 200, 200);
+        display: flex;
+        gap: 10px;
+        width: 130;
+        height: 40px;
+
+        .minus_btn {
+            width: 20px;
+            border: none;
+            font-size: 25px;
+            color: grey;
+            background-color: transparent;
+        }
+
+        .plus_btn {
+            width: 20px;
+            font-size: 25px;
+            border: none;
+            color: black;
+            background-color: transparent;
+        }
+
+    }
+}
+
+.Total_cost_container{
+    padding: 20px 0px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 15px;
+
+    .continue_shopping {
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 5px 15px;
+        font-size: 14px;
+        border: 1px solid rgb(226, 224, 224);
+        background-color: #fff;
+        color: #000;
+        font-family: Montserrat, serif;
+    }
+
+    span{
+        position: relative;
+        top: 5px;
+    }
+
+    b{
+        position: relative;
+        padding: 0px 20px;
+        top: 5px;
+    }
+    .next_step{
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 5px 15px;
+        font-size: 14px;
+        border: none;
+        background-color: #003f67;
+        color: white;
+        font-family: Montserrat, serif;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .summary_container {
+        h6 {
+            text-align: unset !important;
+        }
+    }
+    .Total_cost_container{
+        b{
+            padding: 0px !important;
+        }
+    }
+    .product_head{
+        display: none !important;
+    }
+}

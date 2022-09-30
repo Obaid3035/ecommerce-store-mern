@@ -1,0 +1,76 @@
+.main_container {
+  .background_slider {
+    background-image: url("../../../../assets/img/background-image.png");
+    width: 100% !important;
+    height: auto;
+    background-size: cover;
+
+    .caption_container {
+      width: 100%;
+      max-width: 355px;
+      padding: 30px 20px;
+      margin-top: 70px !important;
+
+      h3 {
+        font-size: 35px;
+        font-family: Montserrat, serif;
+        font-weight: bold;
+      }
+
+      h5 {
+        font-size: 30px;
+        font-weight: 500;
+        font-family: serif;
+        color: #000;
+      }
+
+      Button {
+        padding: 8px;
+        background-color: #003f67;
+        border: none;
+        color: #fff;
+        margin-top: 15px;
+        font-family: Montserrat, serif;
+      }
+    }
+    img {
+      width: 80%;
+      height: 70vh;
+      position: relative;
+      right: 80px;
+      margin-top: 20px;
+      object-fit: contain;
+    }
+  }
+}
+
+.Forward_Arrow_icons {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  right: 71px;
+  bottom: 0;
+}
+.Previous_Arrow_icons {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  bottom: 0;
+  left: 3px;
+}
+
+
+@media (max-width: 767px) {
+  .Group_bg_image {
+    margin-top: 120px !important;
+  }
+
+  .Forward_Arrow_icons,
+  .Previous_Arrow_icons {
+    display: none !important;
+  }
+
+  .sliding_img_container {
+    display: none !important;
+  }
+}

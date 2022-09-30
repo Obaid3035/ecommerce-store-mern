@@ -1,0 +1,65 @@
+.gift_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  .total_balance {
+    span {
+      position: relative;
+      float: right;
+      font-family: Montserrat;
+      font-weight: bold;
+      padding: 3px 20px;
+    }
+  }
+  .dollar_spend_buy {
+    text-align: center;
+    span {
+      margin-top: 10px;
+      font-size: 20px;
+      font-family: Montserrat;
+      font-weight: bold;
+      padding: 3px 20px;
+    }
+  }
+
+  .total_rewards {
+    width: 50%;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    span {
+      font-size: 18px;
+      font-family: Montserrat;
+      font-weight: 500;
+      padding-bottom: 5px;
+    }
+  }
+
+  .cards_container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 5px;
+    .card {
+      width: 12rem;
+      input {
+        position: absolute;
+        width: 21px;
+        height: 21px;
+      }
+      img {
+        height: 126px;
+      }
+    }
+  }
+
+  .buy_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}

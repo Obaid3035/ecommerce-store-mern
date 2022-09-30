@@ -1,0 +1,54 @@
+.round_container {
+  margin-top: 70px;
+
+  .Round_image img {
+    border-radius: 50% !important;
+    width: 135px;
+    height: 135px;
+    object-fit: cover;
+
+    .circle_image {
+      border-radius: 100px;
+      object-fit: contain;
+    }
+  }
+  .text_container {
+    padding: 0 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    .inverted_commas {
+      height: 30px;
+      margin-top: 10px;
+    }
+    .clientSay_container {
+      padding: 0 10px;
+    }
+
+    .nursing_color {
+      color: grey;
+      border-bottom: 2px solid #003f67;
+      position: relative;
+      bottom: 10px;
+    }
+  }
+}
+
+.container_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+}
+
+.slick-slide img {
+  display: inline;
+}
+
+@media only screen and (max-width: 550px) {
+  .Round_container {
+    flex-flow: wrap;
+    justify-content: center;
+
+    .client_name {
+      text-align: center !important;
+      margin-top: 10px;
+    }
+  }
+}

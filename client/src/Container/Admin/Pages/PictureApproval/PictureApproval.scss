@@ -1,0 +1,30 @@
+.picture_approval {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 5px;
+  .card {
+    width: 15rem;
+    input {
+      position: absolute;
+      width: 21px;
+      height: 21px;
+    }
+    img {
+      height: 126px;
+    }
+  }
+}
+.approve_deny_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+  padding-bottom: 40px;
+  button{
+    visibility: unset !important;
+  }
+
+}

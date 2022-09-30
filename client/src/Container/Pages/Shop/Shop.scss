@@ -1,0 +1,75 @@
+.home {
+    position: relative;
+    top: 15px;
+    font-size: 12px;
+    cursor: pointer;
+
+    .home_icon {
+        font-size: 13px;
+        position: relative;
+        bottom: 2px;
+    }
+}
+
+.Product_type_container {
+    border: 1px solid rgb(206, 200, 200);
+    padding: 15px 20px;
+    margin-top: 30px;
+
+    h5 {
+        font-family: serif !important;
+        font-size: 25px;
+    }
+
+    span {
+        position: relative;
+        bottom: 3px;
+        padding: 0px 10px;
+        font-weight: 500;
+    }
+
+    input {
+        width: 18px;
+        height: 18px;
+    }
+
+    .total {
+        padding: 0;
+        color: grey;
+    }
+}
+
+.size_container {
+    margin-top: 10px;
+    padding: 10px 20px;
+
+    h5 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .button_container {
+        display: flex;
+        gap: 5px;
+
+        div{
+            cursor: pointer;
+        }
+
+        .active_border{
+            border: 3px solid rgb(212, 191, 191) !important;
+            cursor: pointer;
+        }
+
+
+        button {
+            font-size: 13px;
+            color: grey;
+            font-weight: 600;
+            font-family: Montserrat;
+            padding: 5px 5px;
+            width: 35px;
+            border: 1px solid rgb(206, 200, 200);
+        }
+    }
+}

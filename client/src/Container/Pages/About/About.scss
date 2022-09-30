@@ -1,0 +1,101 @@
+.about_section {
+
+  .container{
+    margin-bottom: 30px;
+  }
+
+  .about_section1_text {
+    padding: 35px
+  }
+
+  .about_text_section {
+    padding: 45px;
+
+    h4 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .about_img_section {
+    overflow: hidden;
+
+    // modified
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+    }
+
+    //
+  }
+
+  .about_med_scrub {
+    background-size: cover;
+    height: 400px;
+    margin-top: 30px;
+
+    img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+    }
+
+    .about_med_scrub_right {
+      padding: 35px
+    }
+  }
+
+  .wear_section {
+    margin-top: 30px;
+
+    .wear_text_section {
+      padding: 35px;
+    }
+
+    .wear_img_section {
+      img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  .achievement_section {
+    margin-top: 30px;
+    img{
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+    }
+
+    .achievement_text_section {
+      padding: 35px;
+
+      p {
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      h5 {
+        margin-top: 15px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  .wear_text_section {
+    margin-top: 90px;
+  }
+}

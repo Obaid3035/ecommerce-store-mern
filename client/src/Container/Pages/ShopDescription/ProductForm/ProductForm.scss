@@ -1,0 +1,105 @@
+.form_container {
+    margin-top: 20px;
+
+    h4 {
+        font-size: 25px;
+        font-weight: 500;
+        font-family: sans-serif;
+    }
+
+
+
+    .price_container {
+        display: flex;
+        padding: 0 10px;
+        .discount_price {
+            color: rgb(235, 43, 43);
+            font-size: 25px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        .actual_price {
+            color: #000000;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+    }
+
+    .cutting_price {
+        font-size: 25px;
+        font-family: sans-serif;
+        text-decoration: line-through;
+        color: grey;
+    }
+
+
+    .quantity_container {
+        padding: 10px 20px;
+
+        .quantity_inner_container {
+            display: flex;
+            gap: 10px;
+
+            .plus_minus_container {
+                padding: 0px 20px;
+                margin-top: 3px;
+                border: 1px solid rgb(206, 200, 200);
+                display: flex;
+                gap: 10px;
+                width: 130;
+                height: 35px;
+
+                .minus_btn {
+                    width: 20px;
+                    border: none;
+                    font-size: 25px;
+                    color: grey;
+                    background-color: transparent;
+                }
+
+                .plus_btn {
+                    width: 20px;
+                    font-size: 25px;
+                    border: none;
+                    color: black;
+                    background-color: transparent;
+                }
+
+            }
+
+            .heart {
+                font-size: 24px;
+            }
+
+        }
+    }
+
+    .colors_container {
+        padding: 10px 20px;
+        margin-bottom: 5px;
+
+        .button_container {
+            display: flex;
+            gap: 5px;
+
+            div{
+                cursor: pointer;
+            }
+            .active_border{
+                border: 3px solid rgb(212, 191, 191) !important;
+                cursor: pointer;
+            }
+
+            button {
+                font-size: 13px;
+                font-family: Montserrat;
+                padding: 5px 5px;
+                width: 35px;
+                border: 1px solid rgb(206, 200, 200);
+                font-weight: 500;
+            }
+        }
+    }
+}

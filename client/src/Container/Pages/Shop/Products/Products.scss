@@ -1,0 +1,89 @@
+.picture_container {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 30px;
+  gap: 20px;
+  .card {
+    width: 13rem;
+    input {
+      position: absolute;
+      width: 21px;
+      height: 21px;
+    }
+    img {
+      height: 220px;
+      padding: 8px 5px;
+      object-fit: contain;
+    }
+  }
+  .addToCard_container {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+    gap: 10px;
+    visibility: hidden;
+
+    .wishlist{
+      .heart{
+        font-size: 25px;
+
+      }
+      .activeHeart {
+        fill: #003f67;
+      }
+    }
+
+    .add_to_cart {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      background-color: #003f67;
+      color: white;
+      font-size: 20px;
+    }
+
+    .heart_container {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      background-color: rgb(236, 234, 234);
+      color: black;
+      font-size: 20px;
+    }
+  }
+  Button {
+    width: 120px;
+    height: 34px;
+    background-color: #003f67;
+    border: none;
+    color: white;
+    visibility: hidden;
+  }
+}
+.approve_deny_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 15px;
+  padding-bottom: 30px;
+
+
+  .cursor_pointer{
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover{
+
+      .addToCard_container {
+        visibility: visible;
+      }
+      Button {
+        visibility: visible;
+      }
+    }
+  }
+}

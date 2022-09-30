@@ -1,0 +1,76 @@
+.Payment_container{
+    padding: 10px 20px;
+    span{
+        padding: 0px 10px;
+        color: grey;
+        font-family: Montserrat;
+        font-weight: 500;
+    }
+    label{
+        margin-top: 10px;
+    }
+
+    // modified
+    .table{
+        tr{
+            vertical-align: middle;
+        }
+        span{
+            cursor: pointer;
+            svg{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+.summer_vibes_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    b{
+        font-size: 13px;
+    }
+    p{
+        font-size: 12px;
+        color: grey;
+    }
+}
+
+.img_container {
+    background-color: rgb(235, 235, 243);
+    border-radius: 50% !important;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // modified
+    cursor: pointer;
+
+    img {
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+        object-fit: contain;
+    }
+
+
+
+}
+
+.back_container{
+    padding: 50px 0px;
+    font-weight: bold;
+    b{
+        cursor: pointer;
+    }
+    .back_icon{
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+}

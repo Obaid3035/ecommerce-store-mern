@@ -1,0 +1,54 @@
+.about_main{
+  //background: url('../../assets/img/about.png');
+  background-color: #003f67;
+  width: 100%;
+  background-size: cover;
+  height:72px;
+  h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  div {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.shop_main{
+
+  background: url('../../assets/img/clothes.png');
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+
+  h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+}
+
+.policy_bg{
+
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  div {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+}

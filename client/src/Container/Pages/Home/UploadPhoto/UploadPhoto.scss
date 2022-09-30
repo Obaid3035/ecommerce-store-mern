@@ -1,0 +1,77 @@
+.upload_photo_section{
+  margin-bottom: 30px;
+
+  .add_your_photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #d9d1d1;
+    height: 260px;
+    margin-top: 70px;
+
+    .inner_add_photo {
+      padding: 40px 40px;
+      width: 350px;
+    }
+
+    span {
+      font-size: 20px;
+      position: relative;
+      font-family: serif;
+      bottom: 9px;
+    }
+  }
+  .upload_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d1d1;
+    height: 260px;
+    margin-top: 70px;
+
+    .inner_upload_photo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #d9d1d1;
+      height: 200px;
+      width: 500px;
+      flex-direction: column;
+      margin: 20px;
+
+      .upload_img{
+
+        .file_input {
+          width: 0.1px;
+          height: 0.1px;
+          opacity: 0;
+          overflow: hidden;
+          position: absolute;
+          z-index: -1;
+        }
+        .file_label {
+          cursor: pointer;
+          display: inline-flex;
+          align-items: center;
+          border-radius: 4px;
+          font-size: 20px;
+          color: #000;
+          padding: 10px 12px;
+
+          svg {
+            font-size: 20px;
+            margin-right: 7px;
+          }
+        }
+      }
+    }
+
+
+    svg {
+      font-size: 40px;
+    }
+
+  }
+}
+
+

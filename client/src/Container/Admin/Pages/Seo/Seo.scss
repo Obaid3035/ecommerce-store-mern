@@ -1,0 +1,20 @@
+.page_responsive {
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #003F67 !important;
+    text-decoration: none;
+    font-weight: 500;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+
+  .save_btn_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seo_container{
+    margin-top: 20px;
+    padding:0px 25px;
+  }
+}

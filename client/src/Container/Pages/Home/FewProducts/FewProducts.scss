@@ -1,0 +1,95 @@
+.cards_slider {
+  width: 18rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat, serif;
+
+  .card_img{
+    padding: 10px;
+    height: 220px;
+    object-fit: contain;
+  }
+
+  .addToCard_container {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 10px;
+    gap: 10px;
+    visibility: hidden;
+    .wishlist{
+      .heart{
+        font-size: 25px;
+
+      }
+      .activeHeart {
+        fill: #003f67;
+      }
+    }
+
+    .add_to_cart {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      background-color: #003f67;
+      color: white;
+      font-size: 20px;
+    }
+
+    .heart_container {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      background-color: rgb(236, 234, 234);
+      color: black;
+      font-size: 20px;
+    }
+  }
+
+  Button {
+    width: 120px;
+    height: 34px;
+    margin: 0 auto;
+    background-color: #003f67;
+    border: none;
+    color: white;
+    visibility: hidden;
+  }
+}
+
+.cursor_pointer{
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+  .discount_price {
+    color: rgb(235, 43, 43);
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .actual_price {
+    color: black;
+    font-size: 16px;
+  }
+
+  .cross_price {
+    color: grey;
+    font-size: 16px;
+    text-decoration: line-through;
+  }
+
+  .card-title{
+    font-size: 14px;
+  }
+
+  &:hover{
+
+    .addToCard_container {
+      visibility: visible;
+    }
+    Button {
+      visibility: visible;
+    }
+  }
+}

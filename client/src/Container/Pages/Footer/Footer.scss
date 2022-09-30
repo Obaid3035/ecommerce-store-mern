@@ -1,0 +1,191 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-color: #F5F8FA;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style-type: none;
+        font-weight: 500;
+        padding: 15px 0;
+
+        li{
+            margin-right: 15px;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+
+    p{
+        text-align: center;
+    }
+
+    .footer_form {
+        margin-bottom: 30px;
+
+        input{
+            background: #fff;
+            border: 1px solid #d7d7d7;
+            height: 36px;
+            padding: 10px 10px;
+            letter-spacing: 1px;
+            width: 300px;
+            border-radius: unset;
+
+            ::placeholder {
+                font-size: 12px;
+            }
+        }
+
+        .validate{
+            display: flex;
+            justify-content: center;
+        }
+
+        button{
+            background: #003f67;
+            color: #fff;
+            font-size: 11px;
+            padding: 8px 50px;
+            border-radius: unset;
+            border: 1px solid #003f67;
+        }
+
+    }
+
+    .hr_tag{
+        width: 100%;
+        border-bottom: 1px solid #80808045;
+    }
+
+    .footer_logo{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0;
+
+        p{
+            text-align: center;
+        }
+
+        h2{
+            margin-left: 25px;
+        }
+
+
+    }
+
+    .footer_links{
+
+        h2{
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .social_icons{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+
+            svg{
+                margin: 0 10px;
+                color: #003f67;
+                width: 40px;
+                height: 40px;
+                padding: 11px;
+                background-color: #fff;
+                border-radius: 100px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+            }
+        }
+    }
+
+}
+
+
+.all_rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #F5F8FA;
+    padding: 20px;
+
+    p{
+        margin: 0;
+    }
+
+    .payment_method{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        p{
+            margin-right: 15px;
+        }
+
+        img{
+            margin-right: 15px;
+            height: 33px;
+            padding: 3px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    .footer{
+
+        .footer_logo{
+            ul{
+                justify-content: center;
+                padding: 15px 15px;
+
+                li{
+                    padding-bottom: 15px;
+                }
+            }
+        }
+
+        .validate{
+            flex-flow: wrap;
+        }
+
+        .footer_form {
+
+            Button{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 15px;
+            }
+
+        }
+    }
+
+    .all_rights{
+        p{
+            padding-bottom: 10px;
+        }
+
+    }
+
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}

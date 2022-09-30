@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.active ~ .page_responsive {
+  width: calc(100% - 240px);
+  left: 240px;
+  transition: all 0.2s ease;
+}
+.page_responsive {
+  position: absolute;
+  top: auto;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  height: 100%;
+  width: calc(100% - 74px);
+  left: 74px;
+  transition: all 0.2s ease;
+}
+
+.page_responsive h5 {
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (max-width: 786px) {
+  .active ~ .page_responsive {
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.2s ease;
+    filter: blur(5px);
+  }
+}
+
+.tabs {
+  button {
+    background-color: #fff;
+    color: #003f67 !important;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    :active {
+      background-color: #003f67;
+      color: #fff;
+      transition: all 0.2s ease;
+    }
+
+    &:hover {
+      background-color: #fff !important;
+      color: #003f67 !important;
+      transition: all 0.2s ease;
+    }
+  }
+}
+
+.btn {
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  font-size: 14px;
+  border: none;
+  background-color: #003f67;
+  color: white;
+  font-family: Montserrat, serif;
+
+  &:hover {
+    background-color: #fff;
+    color: #003f67;
+    transition: all 0.5s ease;
+  }
+}
+
+.all_btns {
+  position: relative;
+  float: right;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  font-size: 12px;
+  border: none !important;
+  background-color: #003f67 !important;
+  color: white !important;
+  font-family: Montserrat, serif;
+  margin-top: 20px;
+}
+
+.refund_btn {
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0px 15px;
+  letter-spacing: 1px;
+  font-size: 12px;
+  border: none;
+  background-color: #003f67;
+  color: white;
+  font-family: Montserrat, serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
